@@ -52,7 +52,7 @@ public class HijoController {
         }
     }
 
-    @PutMapping(value="/librosL/{id}")
+    @PutMapping(value="/libros/{id}")
     public ResponseEntity<Hijo> updateLibros(@PathVariable("id") Long id,
                                        @RequestBody int idLibro){
 
